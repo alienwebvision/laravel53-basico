@@ -1,0 +1,32 @@
+/*Created on : 20/10/2020, 02:06
+Autor : Ales Nascimento*/
+.title-pg {
+    font-size: 2em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.edit {
+    background: #19048f;
+}
+
+.delete {
+    background: #e81212;
+}
+
+.actions {
+    padding: 6px;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 0px 2px;
+}
+
+.actions:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btn-add{
+    margin-bottom: 10px;
+}
