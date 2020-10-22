@@ -138,6 +138,7 @@ class ProdutoController extends Controller
     public function update(Request $request, $id)
     {
         return "Editando o item {$id}";
+
         
     }
 
