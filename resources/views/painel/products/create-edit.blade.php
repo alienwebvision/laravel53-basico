@@ -1,7 +1,12 @@
 @extends('painel.templates.template')
 
 @section('content')
-    <h1 class="title-pg">Gestão Pruduto</h1>
+
+    <h1 class="title-pg">
+        <a href="{{route('produtos.index')}}"><span class="glyphicon glyphicon-arrow-left
+"></span></a>
+        Gestão Pruduto: <b>{{$product->name ?? 'Cadastro Novo'}}</b>
+    </h1>
 
     @if(isset($errors) && count($errors) >0)
 
@@ -16,51 +21,40 @@
     @endif
 
     @if(isset($product))
-        <form class="form" method="post" action="{{route('produtos.update',$product->id)}}">
-            {!! method_field('PUT') !!}
 
-            @else
+        {!! Form::model($product,['route'=>['produtos.update',$product->id],'class'=>'form','method'=>'put']) !!}
 
+    @else
 
+        {!! Form::open(['route'=>'produtos.store','class'=>'form']) !!}
 
-            @endif
-            <form class="form" method="post" action="{{route('produtos.store')}}">
-                {{--        token de segurança para validar o formulário--}}
-                {{--        <input type="hidden" name="_token" value="{{csrf_token()}}">--}}
-                {!! csrf_field() !!}
+    @endif
 
-                <div class="form-group">
-                    <input class="form-control" type="text" name="name" placeholder="Nome:"
-                           value="{{$product->name ?? old('name')}}">
-                </div>
-                <div class="form-group">
-                    <label>
-                        <input type="checkbox" name="active" value="1"
-                               @if(isset($product)&& $product->active == '1') checked @endif>
-                        Ativo?
-                    </label>
-                </div>
-                <div class="form-group">
-                    <input class="form-control" type="text" name="number" placeholder="Número"
-                           value="{{$product->number ?? old('number')}}">
-                </div>
-                <div class="form-group">
-                    <select class="form-control" name="category" value="{{old('category')}}">
-                        <option value="">Escolha a Categoria</option>
-                        @foreach($categorys as $category)
-                            <option value="{{$category}}"
-                                    @if(isset($product) && $product->category == $category)
-                                    selected
-                                @endif
+    {{--        token de segurança para validar o formulário--}}
+    {{--        <input type="hidden" name="_token" value="{{csrf_token()}}">--}}
 
-                            >{{$category}}</option>
-                        @endforeach
-                    </select>
-                </div>
-                <div class="form-group">
-            <textarea class="form-control" name="description" placeholder="Descrição"
-                      value="">{{$product->description ?? old('description')}}</textarea>
-                </div>
-                <button class="btn btn-primary">Enviar</button>
-            </form>
+    <div class="form-group">
+        {!! Form::text('name',null,['class'=>'form-control','placeholder'=>'Nome']) !!}
+    </div>
+    <div class="form-group">
+        <label>
+
+            {!! Form::checkbox('active') !!}
+            Ativo?
+        </label>
+    </div>
+    <div class="form-group">
+        {!! Form::text('number',null,['class'=>'form-control','placeholder'=>'Número']) !!}
+
+    </div>
+    <div class="form-group">
+        {!! Form::select('category',$categorys,null,['class' => 'form-control']) !!}
+    </div>
+    <div class="form-group">
+
+        {!! Form::textarea('description',null,['class'=>'form-control','placeholder'=>'Descrição:']) !!}
+
+    </div>
+    {!! Form::submit('Enviar',['class'=>'btn btn-primary']) !!}
+    {!!Form::close()  !!}
 @endsection

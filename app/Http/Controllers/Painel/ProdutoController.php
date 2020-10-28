@@ -123,7 +123,7 @@ class ProdutoController extends Controller
         $title = "Editar produto: {$product->name}";
         $categorys = ['eletronicos', 'moveis', 'limpeza', 'banho'];
 
-        return view('painel.products.create-edit', compact('title', 'categorys','product'));
+        return view('painel.products.create-edit', compact('title', 'categorys', 'product'));
 
 
     }
@@ -135,11 +135,28 @@ class ProdutoController extends Controller
      * @param int $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(ProductFormRequest $request, $id)
     {
-        return "Editando o item {$id}";
+//        return "Editando o item {$id}";
+//        recupera todos os dados do formulario
+        $dataForm = $request->all();
 
-        
+//        Recupera o item para editar
+        $product = $this->product->find($id);
+
+//        Verifica se o produto esta ativado
+        $dataForm['active'] = (!isset($dataForm['active'])) ? 0 : 1;
+
+//        Altera os itens
+        $update = $product->update($dataForm);
+
+//        Verifica se realmente os dados foram editados
+        if ($update) {
+            return redirect()->route('produtos.index');
+        } else {
+            return redirect()->route('produtos.edit', $id)->with(['errors' => 'Falha ao editar!']);
+        }
+
     }
 
     /**

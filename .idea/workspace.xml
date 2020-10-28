@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8427848f-dcf9-4f2b-981e-d15c885a4c44" name="Default Changelist" comment="" />
+    <list default="true" id="8427848f-dcf9-4f2b-981e-d15c885a4c44" name="Default Changelist" comment="HTML">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel53-basico.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel53-basico.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Painel/ProdutoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Painel/ProdutoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/painel/products/create-edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/painel/products/create-edit.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +32,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -132,6 +145,7 @@
       <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
       <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
       <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
     </include_path>
   </component>
   <component name="ProjectId" id="1if5tFhQAiFQHtWzMyTQcq6XIbB" />
@@ -142,10 +156,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../laradock11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -192,18 +206,34 @@
       <workItem from="1602740142309" duration="14990000" />
       <workItem from="1602905523020" duration="2366000" />
       <workItem from="1603065688700" duration="35000" />
-      <workItem from="1603165883776" duration="30151000" />
+      <workItem from="1603165883776" duration="32658000" />
+      <workItem from="1603418331752" duration="143000" />
+      <workItem from="1603505459365" duration="2637000" />
+      <workItem from="1603747329709" duration="1157000" />
+      <workItem from="1603754139808" duration="563000" />
+      <workItem from="1603754799893" duration="583000" />
+      <workItem from="1603758110664" duration="665000" />
+      <workItem from="1603802144041" duration="6345000" />
+      <workItem from="1603878232326" duration="1172000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HTML" />
+    <option name="LAST_COMMIT_MESSAGE" value="HTML" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="542" y="281" key="#Composer" timestamp="1602286478393">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="542" y="281" key="#Composer/0.0.1536.864/1920.0.1440.900@0.0.1536.864" timestamp="1602286478393" />
+    <state x="261" y="7" key="#Deployment" timestamp="1603810863291">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="261" y="7" key="#Deployment/0.0.1536.864/1920.0.1440.900@0.0.1536.864" timestamp="1603810863291" />
     <state x="261" y="0" key="#Plugins" timestamp="1603065720227">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -228,10 +258,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="DiffContextDialog/0.0.1536.864/1920.0.1440.900@0.0.1536.864" timestamp="1602732407791" />
-    <state x="477" y="139" key="FileChooserDialogImpl" timestamp="1603230836849">
+    <state x="477" y="139" key="FileChooserDialogImpl" timestamp="1603411161812">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="477" y="139" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1440.900@0.0.1536.864" timestamp="1603230836849" />
+    <state x="477" y="139" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1440.900@0.0.1536.864" timestamp="1603411161812" />
     <state x="2367" y="145" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1440.900@1920.0.1440.900" timestamp="1602739193683" />
     <state width="1481" height="201" key="GridCell.Tab.0.bottom" timestamp="1602288463643">
       <screen x="0" y="0" width="1536" height="864" />
@@ -257,15 +287,19 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="578" y="333" key="NewPhpFileDialog/0.0.1536.864/1920.0.1440.900@0.0.1536.864" timestamp="1603344243061" />
-    <state x="2070" y="0" key="SettingsEditor" timestamp="1602739198289">
-      <screen x="1920" y="0" width="1440" height="900" />
+    <state x="160" y="0" key="SettingsEditor" timestamp="1603802678508">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="160" y="0" key="SettingsEditor/0.0.1536.864/1920.0.1440.900@0.0.1536.864" timestamp="1602735108311" />
+    <state x="160" y="0" key="SettingsEditor/0.0.1536.864/1920.0.1440.900@0.0.1536.864" timestamp="1603802678508" />
     <state x="2070" y="0" key="SettingsEditor/0.0.1536.864/1920.0.1440.900@1920.0.1440.900" timestamp="1602739198289" />
     <state x="2437" y="267" key="SymfonyComponentCompositeDataDialog" timestamp="1602739195098">
       <screen x="1920" y="0" width="1440" height="900" />
     </state>
     <state x="2437" y="267" key="SymfonyComponentCompositeDataDialog/0.0.1536.864/1920.0.1440.900@1920.0.1440.900" timestamp="1602739195098" />
+    <state x="603" y="240" key="cloudConfig.SelfSettingsDialog" timestamp="1603689553753">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="603" y="240" key="cloudConfig.SelfSettingsDialog/0.0.1536.864/1920.0.1440.900@0.0.1536.864" timestamp="1603689553753" />
     <state x="1946" y="-16" width="1167" height="832" maximized="true" key="dock-window-1" timestamp="1603230777980">
       <screen x="1920" y="0" width="1440" height="900" />
     </state>
