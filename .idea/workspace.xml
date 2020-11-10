@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8427848f-dcf9-4f2b-981e-d15c885a4c44" name="Default Changelist" comment="HTML">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/laravel53-basico.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel53-basico.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Painel/ProdutoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Painel/ProdutoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/painel/products/create-edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/painel/products/create-edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -214,7 +207,8 @@
       <workItem from="1603754799893" duration="583000" />
       <workItem from="1603758110664" duration="665000" />
       <workItem from="1603802144041" duration="6345000" />
-      <workItem from="1603878232326" duration="1172000" />
+      <workItem from="1603878232326" duration="2059000" />
+      <workItem from="1605040934797" duration="594000" />
     </task>
     <servers />
   </component>
@@ -250,6 +244,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="446" y="155" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.864/1920.0.1440.900@0.0.1536.864" timestamp="1602730397242" />
+    <state x="2420" y="0" key="CommitChangelistDialog2" timestamp="1603879952879">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2420" y="0" key="CommitChangelistDialog2/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603879952879" />
     <state x="501" y="328" key="ComposerInitDialogKey" timestamp="1602386102719">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -296,10 +294,11 @@
       <screen x="1920" y="0" width="1440" height="900" />
     </state>
     <state x="2437" y="267" key="SymfonyComponentCompositeDataDialog/0.0.1536.864/1920.0.1440.900@1920.0.1440.900" timestamp="1602739195098" />
-    <state x="603" y="240" key="cloudConfig.SelfSettingsDialog" timestamp="1603689553753">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="2674" y="300" key="cloudConfig.SelfSettingsDialog" timestamp="1603879741236">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="603" y="240" key="cloudConfig.SelfSettingsDialog/0.0.1536.864/1920.0.1440.900@0.0.1536.864" timestamp="1603689553753" />
+    <state x="2674" y="300" key="cloudConfig.SelfSettingsDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603879741236" />
     <state x="1946" y="-16" width="1167" height="832" maximized="true" key="dock-window-1" timestamp="1603230777980">
       <screen x="1920" y="0" width="1440" height="900" />
     </state>

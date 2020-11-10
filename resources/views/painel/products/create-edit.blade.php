@@ -34,7 +34,7 @@
     {{--        <input type="hidden" name="_token" value="{{csrf_token()}}">--}}
 
     <div class="form-group">
-        {!! Form::text('name',null,['class'=>'form-control','placeholder'=>'Nome']) !!}
+        {!! Form::text('name',null,['class'=>'form-control','placeholder'=>'Nome: ']) !!}
     </div>
     <div class="form-group">
         <label>
@@ -44,7 +44,7 @@
         </label>
     </div>
     <div class="form-group">
-        {!! Form::text('number',null,['class'=>'form-control','placeholder'=>'Número']) !!}
+        {!! Form::text('number',null,['class'=>'form-control','placeholder'=>'Número: ']) !!}
 
     </div>
     <div class="form-group">
@@ -52,7 +52,7 @@
     </div>
     <div class="form-group">
 
-        {!! Form::textarea('description',null,['class'=>'form-control','placeholder'=>'Descrição:']) !!}
+        {!! Form::textarea('description',null,['class'=>'form-control','placeholder'=>'Descrição: ']) !!}
 
     </div>
     {!! Form::submit('Enviar',['class'=>'btn btn-primary']) !!}
