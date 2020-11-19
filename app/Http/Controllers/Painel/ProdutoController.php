@@ -24,7 +24,8 @@ class ProdutoController extends Controller
      */
     public function index(
         Product $product
-    ) {
+    )
+    {
 
         $title = 'Listagem dos produtos';
         $products = $product->all();
@@ -105,7 +106,7 @@ class ProdutoController extends Controller
      */
     public function show($id)
     {
-        //
+        return "Show {$id}";
     }
 
     /**
